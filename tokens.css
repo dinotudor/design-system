@@ -1,0 +1,126 @@
+/* SkiroLiro tokens. Generated from tokens.json. */
+:root{
+  --sl-color-bg: #F6F8FA;
+  --sl-color-surface: #FFFFFF;
+  --sl-color-surface-sunken: #EAEFF5;
+  --sl-color-surface-raised: #FFFFFF;
+  --sl-color-border: #D5DCE6;
+  --sl-color-border-strong: #7A889C;
+  --sl-color-text: #0E1B2E;
+  --sl-color-text-muted: #586A82;
+  --sl-color-primary: #16335E;
+  --sl-color-on-primary: #FFFFFF;
+  --sl-color-accent: #17795C;
+  --sl-color-accent-graphic: #2DB88C;
+  --sl-color-on-accent: #0E1B2E;
+  --sl-color-link: #16335E;
+  --sl-color-focus-ring: #16335E;
+  --sl-color-success: #17795C;
+  --sl-color-warning: #8F5600;
+  --sl-color-danger: #C0303F;
+  --sl-color-info: #2F5AA8;
+  --sl-font-sans: Figtree, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --sl-font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --sl-text-xs: 0.75rem;
+  --sl-leading-xs: 1.0rem;
+  --sl-text-sm: 0.875rem;
+  --sl-leading-sm: 1.25rem;
+  --sl-text-md: 1.0rem;
+  --sl-leading-md: 1.5rem;
+  --sl-text-lg: 1.125rem;
+  --sl-leading-lg: 1.75rem;
+  --sl-text-xl: 1.25rem;
+  --sl-leading-xl: 1.75rem;
+  --sl-text-2xl: 1.5rem;
+  --sl-leading-2xl: 2.0rem;
+  --sl-text-3xl: 1.875rem;
+  --sl-leading-3xl: 2.375rem;
+  --sl-text-4xl: 2.25rem;
+  --sl-leading-4xl: 2.75rem;
+  --sl-text-5xl: 3.0rem;
+  --sl-leading-5xl: 3.5rem;
+  --sl-space-0: 0.0rem;
+  --sl-space-1: 0.25rem;
+  --sl-space-2: 0.5rem;
+  --sl-space-3: 0.75rem;
+  --sl-space-4: 1.0rem;
+  --sl-space-5: 1.25rem;
+  --sl-space-6: 1.5rem;
+  --sl-space-8: 2.0rem;
+  --sl-space-10: 2.5rem;
+  --sl-space-12: 3.0rem;
+  --sl-space-16: 4.0rem;
+  --sl-space-20: 5.0rem;
+  --sl-radius-none: 0px;
+  --sl-radius-sm: 4px;
+  --sl-radius-md: 8px;
+  --sl-radius-lg: 12px;
+  --sl-radius-xl: 16px;
+  --sl-radius-full: 9999px;
+  --sl-shadow-sm: 0 1px 2px rgba(14,27,46,.08);
+  --sl-shadow-md: 0 4px 12px rgba(14,27,46,.10);
+  --sl-shadow-lg: 0 12px 32px rgba(14,27,46,.14);
+  --sl-duration-fast: 120ms;
+  --sl-duration-base: 200ms;
+  --sl-duration-slow: 320ms;
+  --sl-ease-standard: cubic-bezier(.2,0,0,1);
+  --sl-ease-enter: cubic-bezier(0,0,0,1);
+  --sl-ease-exit: cubic-bezier(.4,0,1,1);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+:root:not([data-theme="light"]){
+  --sl-color-bg: #0A101C;
+  --sl-color-surface: #111B2E;
+  --sl-color-surface-sunken: #0A101C;
+  --sl-color-surface-raised: #182540;
+  --sl-color-border: #223048;
+  --sl-color-border-strong: #5A6B88;
+  --sl-color-text: #E9EEF7;
+  --sl-color-text-muted: #93A3BA;
+  --sl-color-primary: #7E9FE0;
+  --sl-color-on-primary: #0A101C;
+  --sl-color-accent: #4FE0B0;
+  --sl-color-accent-graphic: #4FE0B0;
+  --sl-color-on-accent: #0A101C;
+  --sl-color-link: #9DB6EE;
+  --sl-color-focus-ring: #9DB6EE;
+  --sl-color-success: #4FE0B0;
+  --sl-color-warning: #F2B84B;
+  --sl-color-danger: #FF8A93;
+  --sl-color-info: #7E9FE0;
+  --sl-shadow-sm: 0 1px 2px rgba(0,0,0,.40);
+  --sl-shadow-md: 0 4px 12px rgba(0,0,0,.45);
+  --sl-shadow-lg: 0 12px 32px rgba(0,0,0,.55);
+  color-scheme: dark;
+}
+}
+:root[data-theme="dark"]{
+  --sl-color-bg: #0A101C;
+  --sl-color-surface: #111B2E;
+  --sl-color-surface-sunken: #0A101C;
+  --sl-color-surface-raised: #182540;
+  --sl-color-border: #223048;
+  --sl-color-border-strong: #5A6B88;
+  --sl-color-text: #E9EEF7;
+  --sl-color-text-muted: #93A3BA;
+  --sl-color-primary: #7E9FE0;
+  --sl-color-on-primary: #0A101C;
+  --sl-color-accent: #4FE0B0;
+  --sl-color-accent-graphic: #4FE0B0;
+  --sl-color-on-accent: #0A101C;
+  --sl-color-link: #9DB6EE;
+  --sl-color-focus-ring: #9DB6EE;
+  --sl-color-success: #4FE0B0;
+  --sl-color-warning: #F2B84B;
+  --sl-color-danger: #FF8A93;
+  --sl-color-info: #7E9FE0;
+  --sl-shadow-sm: 0 1px 2px rgba(0,0,0,.40);
+  --sl-shadow-md: 0 4px 12px rgba(0,0,0,.45);
+  --sl-shadow-lg: 0 12px 32px rgba(0,0,0,.55);
+  color-scheme: dark;
+}
+
+body{background:var(--sl-color-bg);color:var(--sl-color-text);font:var(--sl-text-md)/var(--sl-leading-md) var(--sl-font-sans)}
+:focus-visible{outline:2px solid var(--sl-color-focus-ring);outline-offset:2px}
+@media (prefers-reduced-motion: reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
